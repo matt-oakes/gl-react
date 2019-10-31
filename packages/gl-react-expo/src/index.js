@@ -1,6 +1,6 @@
 //@flow
 import { View } from "react-native";
-import { createSurface } from "gl-react";
+import { createSurface } from "@mattoakes/gl-react";
 import GLView from "./GLViewNative";
 import "webgltexture-loader-expo";
 
