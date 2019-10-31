@@ -310,6 +310,22 @@ export default ({
     }
 
     /**
+     * see https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/toBlob
+     * @memberof Surface
+     * @instance
+     */
+    glViewCapture(...args: any): Promise<any> {
+      const { glView } = this;
+      invariant(glView, "GLView is mounted");
+      invariant(
+        glView.capture,
+        "capture is not defined in %s",
+        GLView.displayName || GLView.name
+      );
+      return glView.capture(...args);
+    }
+
+    /**
      * capture the root Node pixels. Make sure you have set `preserveDrawingBuffer: true` in `webglContextAttributes` prop.
      * @memberof Surface
      * @instance
