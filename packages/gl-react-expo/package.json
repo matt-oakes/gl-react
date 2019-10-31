@@ -1,6 +1,6 @@
 {
   "name": "@mattoakes/gl-react-expo",
-  "version": "3.18.0-alpha.0",
+  "version": "3.18.0-alpha.1",
   "license": "MIT",
   "author": "Gaëtan Renaudeau <renaudeau.gaetan@gmail.com>",
   "description": "React Native via Expo implementation of gl-react, an universal React library to write and compose WebGL shaders",
