@@ -1,5 +1,5 @@
 {
-  "name": "gl-react-cookbook",
+  "name": "@mattoakes/gl-react-cookbook",
   "version": "3.17.2",
   "private": true,
   "devDependencies": {

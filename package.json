@@ -1,5 +1,5 @@
 {
-  "name": "gl-react-dev",
+  "name": "@mattoakes/gl-react-dev",
   "version": "0.0.0",
   "workspaces": [
     "packages/*"

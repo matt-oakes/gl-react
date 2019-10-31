@@ -1,5 +1,5 @@
 {
-  "name": "gl-react-tests",
+  "name": "@mattoakes/gl-react-tests",
   "private": true,
   "license": "MIT",
   "scripts": {
