@@ -34,5 +34,8 @@
     "invariant": "^2.2.4",
     "prop-types": "^15.7.2",
     "webgltexture-loader-expo": "^0.12.2"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

@@ -40,5 +40,8 @@
   },
   "scripts": {
     "build": "cd ../.. && export PATH=$(npm bin):$PATH && cd - && rm -rf gl-react-dom.js && browserify lib/index.js -t [ browserify-shim ] --standalone GLReactDOM > gl-react-dom.js"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
